@@ -141,9 +141,10 @@ Encryption and decryption both have the same space complexity. We store a certai
 #### Encryption
 
 - Theoretical order of growth: $O(n^2)$
-- Measured constant of proportionality for theoretical order: 1.5625e-04
-- Empirical order of growth (if different from theoretical): $O(1)$
-- Measured constant of proportionality for empirical order: 1.9831e+01
+- Measured constant of proportionality for theoretical order: 1.2622e-04
+
+- Empirical order of growth (if different from theoretical): $O(\log n)$
+- Measured constant of proportionality for empirical order: 2.4350e+00
 
 ![Encrypt: Graph of theoretical vs empirical time complexity](encrypt-complexity-graph.png)
 
