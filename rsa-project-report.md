@@ -118,12 +118,12 @@ Encryption and decryption both have the same space complexity. We store a certai
 
 | N    | time (ms) |
 | ---- | --------- |
-| 64   |           |
-| 128  |           |
-| 256  |           |
-| 512  |           |
-| 1024 |           |
-| 2048 |           |
+| 64   | 10.04291  |
+| 128  | 7.70354   |
+| 256  | 6.91628   |
+| 512  | 5.89049   |
+| 1024 | 25.55084  |
+| 2048 | 35.90882  |
 
 #### Decryption
 
